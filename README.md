@@ -47,7 +47,7 @@ With a starting value of 100, here is the estimated performance after 30 days:
 |---------|----------|
 | Mean | 107.07 |
 | Median | 107.03 |
-| Max | 115.366 |
+| Max | 115.36 |
 | Min | 98.87 |
 | Lower 5% CVaR | 100.91 |
 
