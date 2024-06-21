@@ -73,5 +73,8 @@ Finally, we evaluate our portfolio on the total span of data: a year which it ha
   <img src="https://github.com/stoyhris/markowitz/assets/113132376/3f427987-ea09-4722-90f9-b99b347699f7" alt="Full-test"/>
 </p>
 
+## Future Directions 
+Finance is full of noisy data, and quantitative researchers must avoid overfitting to the noise. As described by Grinold and Khan in _Active Portfolio Management_, quadratic programming uses many parameters and suffers from the "garbage in, garbage out" principle. This project avoids overfitting by showcasing high performance on out-of-sample data; however, this does not mean our portfolio is robust to all uncertainty in the parameters. Future research should incorporate robust optimization into the Markowitz model, which will optimize for worst-case scenarios despite parameter uncertainty. 
+
 ## Conclusion 
-Optimization methods can be fruitful in constructing optimal portfolios for a given set of stocks. Monte Carlo simulations and empirical experiments indicate that an optimal portfolio will almost always significantly out-perform the highly diversified equal-weighting portfolio. 
+Optimization methods can be fruitful in constructing optimal portfolios for a given set of stocks. Monte Carlo simulations and empirical experiments indicate that an optimal portfolio will almost always significantly out-perform the highly diversified equal-weighting portfolio. Further optimization methods can be incorporated to diminish the effects of parameter uncertainty.
