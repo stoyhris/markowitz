@@ -32,6 +32,8 @@ We choose an acceptable target return from the frontier, and derive optimal port
 | BOE	| 5.00 | | VST	| 5.00 | | BSX	| 4.13 | | TSN	| 2.79 |
 | COR	| 5.00 | | WMT	| 4.99 | | FANG	| 3.97 | | CB	| 2.25 |
 
+## Experiments 
+
 ### Performance Estimation 
 We use a Monte Carlo simulation to estimate our portfolio's performance in the next 30 days. Results indicate that we can expect to gain at most 15% and on average 7%. Although we can expect to lose at most 2%, the worst 5% of cases have us winning on average 1%. 
 
