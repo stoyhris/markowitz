@@ -41,7 +41,7 @@ We use a Monte Carlo simulation to estimate our portfolio's performance in the n
   <img src="https://github.com/stoyhris/markowitz/assets/113132376/a2ffa608-207d-4b78-8710-74cab1a34e9d" alt="Monte Carlo Simulation"/>
 </p>
 
-With a starting value of 100, here is the estimated performance after 30 days:
+With a starting value of 100, below is the estimated performance after 30 days:
 
 | Metric | Value ($) |
 |---------|----------|
@@ -52,8 +52,9 @@ With a starting value of 100, here is the estimated performance after 30 days:
 | Lower 5% CVaR | 100.91 |
 
 ### Performance Testing 
+Note that this portfolio was derived from data during a (relatively) bull market, which partially explains the rather positive results above. To paint a clearer picture of the portfolio's performance, we compare it against an equally weighted portfolio of S&P 500 companies.
 #### Back Testing
-First, we conduct a back-test of our portfolio against an equally weighted S&P500 portfolio. Results show that the optimal portfolio significantly outperforms the benchmark portfolio, which is expected because the optimal portfolio is trained on this data. 
+First, we conduct a back-test of our portfolio against the benchmark Results show that the optimal portfolio significantly outperforms the benchmark portfolio, which is expected because the optimal portfolio is trained on this data. 
 
 <p align="center">
   <img src="https://github.com/stoyhris/markowitz/assets/113132376/c03ae7b8-78b1-48fb-955d-23b7525e1f72" alt="Back-test"/>
