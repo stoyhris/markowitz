@@ -81,3 +81,4 @@ Finance is full of noisy data, and quantitative researchers must avoid overfitti
 
 ## Conclusion 
 Optimization methods can be fruitful in constructing optimal portfolios for a given set of stocks. Monte Carlo simulations and empirical experiments indicate that an optimal portfolio will almost always significantly out-perform the highly diversified equal-weighting portfolio. Further optimization methods can be incorporated to diminish the effects of parameter uncertainty.
+# MoonVIDIA
