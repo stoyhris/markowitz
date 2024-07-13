@@ -2,7 +2,9 @@
 
 ## Background
 Developed by Henry Markowitz, modern portfolio theory seeks to optimize portfolio allocations by minimizing risk subject to achieving a minimum return as represented in the following optimization problem:
+
 $$\text{Minimize: } w^T \Sigma w$$ 
+
 $$\text{Subject to: \quad{} } w^T \mu \geq r, \quad{} 1^Tw = 1, \quad{} w \geq 0$$
 
 Where $w$ represents the optimal portfolio weights, $\Sigma$ represents the covariance matrix, and $\mu$ represents the estimated returns.
